@@ -1,3 +1,5 @@
+// Hides Report a Problem from Help Menu (left-navigation) from all users
+
 $(document).ready(function () {
     $('#menu a[href="http://help.instructure.com/"]').on('click', function() {
         function onElementRendered(selector, cb, _attempts) {
